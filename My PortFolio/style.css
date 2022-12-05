@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+.container .max-heigth{
+    font-family: Segoe UI Light;
+}
+.container .paragraph{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.maindiv .mr{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(99, 250, 250);
+    text-align: center;
+    color: white;
+    height: 60px;
+    padding-top: 20px;
+}
+
+@media (min-width:500px){
+    .maindiv .mr{
+        display: none;
+    }
+    
+}
+    
+.container .second{
+    /* background-color: yellow; */
+    width: 600px;
+    display: inline-block;
+    float: right;
+}
+
+
+.spancolor{
+    color: rgb(99, 250, 250);
+}
+.container .first{
+    /* background-color: red; */
+    height: 400px;
+    width: 245px;
+    display: inline-block;
+    float: left;
+    font-family: Segoe UI Light;
+    border: rgb(109, 109, 109);
+    border-radius: 10px;
+}
+.container .second{
+    /* background-color: yellow; */
+    width: 70%;
+    height: 400px;
+    display: inline-block;
+    float: right;
+}
+.container .first img{
+    height: 249px;
+    border-radius: 500px;
+}
+.container .first h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.container .seconddiv{
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .seconddiv h2{
+    margin-bottom: 10px;
+}
+
+.container .imgx img{
+    width: 100%;
+    height: 200px;
+}
+
+.container .footer{
+    font-family: Segoe UI Light;
+}
+
+.footer li{
+    list-style: none;
+}
+.footer .footerdiv01{
+    /* background-color: red; */
+    width: 200px;
+    display:inline-block;
+    float: right;
+    margin: 40px;
+}
+.footer .footerdiv02{
+    /* background-color: yellow; */
+    width: 200px;
+    display: inline-block;
+    float: right;
+    margin: 40px;
+}
+.footer li{
+    margin-top: 10px;
+}
+.footer li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.footer li a:hover{
+    border-bottom: 2px solid black;
+}
+
+@media (max-width:500px){
+    .container{
+        max-width: 1200px;
+        width: 80%;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .container .first{
+        /* background-color: red; */
+        height: 300px;
+        width: 100%;
+        display: inline-block;
+        float: left;
+        font-family: Segoe UI Light;
+        border: rgb(109, 109, 109);
+        border-radius: 10px;
+        /* margin-left: 20px; */
+        text-align: center;
+    }
+    .container .second{
+        width: 100%;
+    }
+    .container .first h2{
+        display: none;
+    }
+    .container .imgx img{
+        height: 100px;
+    }
+
+}
+
+
+.container .ulx img{
+    height: 180px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.container .ulx .lix1{
+    /* background-color: red; */
+    display: inline-block;
+}
+.container .ulx .lix2{
+    display: inline-block;
+    /* background-color: yellow; */
+}
+.container .ulx .lix3{
+    display: inline-block;
+    /* background-color: rgb(38, 177, 84); */
+}
+
+
+
