@@ -81,6 +81,7 @@
 .container .imgx img{
     width: 100%;
     height: 200px;
+ 
 }
 
 .container .footer{
@@ -142,6 +143,11 @@
     }
     .container .imgx img{
         height: 100px;
+    }
+    .container .imgx img{
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
     }
 
 }
