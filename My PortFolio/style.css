@@ -3,18 +3,15 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
 .container {
     max-width: 1200px;
     width: 70%;
     margin: auto;
     margin-top: 70px;
 }
-
 .container .max-heigth {
     font-family: Segoe UI Light;
 }
-
 .container .paragraph {
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
