@@ -3,19 +3,23 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
 .container {
     max-width: 1200px;
     width: 70%;
     margin: auto;
     margin-top: 70px;
 }
+
 .container .max-heigth {
     font-family: Segoe UI Light;
 }
+
 .container .paragraph {
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .maindiv .mr {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(99, 250, 250);
@@ -24,20 +28,24 @@
     height: 60px;
     padding-top: 20px;
 }
+
 @media (min-width:500px) {
     .maindiv .mr {
         display: none;
     }
 }
+
 .container .second {
     /* background-color: yellow; */
     width: 600px;
     display: inline-block;
     float: right;
 }
+
 .spancolor {
     color: rgb(99, 250, 250);
 }
+
 .container .first {
     /* background-color: red; */
     height: 400px;
@@ -48,6 +56,7 @@
     border: rgb(109, 109, 109);
     border-radius: 10px;
 }
+
 .container .second {
     /* background-color: yellow; */
     width: 70%;
@@ -55,31 +64,39 @@
     display: inline-block;
     float: right;
 }
+
 .container .first img {
     height: 249px;
     border-radius: 500px;
 }
+
 .container .first h2 {
     margin-top: 20px;
     text-align: center;
 }
+
 .container .seconddiv {
     margin-top: 60px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .container .seconddiv h2 {
     margin-bottom: 10px;
 }
+
 .container .imgx img {
     width: 100%;
     height: 200px;
 }
+
 .container .footer {
     font-family: Segoe UI Light;
 }
+
 .footer li {
     list-style: none;
 }
+
 .footer .footerdiv01 {
     /* background-color: red; */
     width: 200px;
@@ -87,6 +104,7 @@
     float: right;
     margin: 40px;
 }
+
 .footer .footerdiv02 {
     /* background-color: yellow; */
     width: 200px;
@@ -94,6 +112,7 @@
     float: right;
     margin: 40px;
 }
+
 .footer li {
     margin-top: 10px;
 }
@@ -186,6 +205,7 @@
     float: left;
     padding: 20px;
 }
+
 .hsc {
     height: 100%;
     width: 33.33%;
@@ -193,6 +213,7 @@
     float: right;
     padding: 20px;
 }
+
 .ssc {
     height: 100%;
     width: 33.33%;
@@ -200,6 +221,7 @@
     float: right;
     padding: 20px;
 }
+
 .education span {
     font-weight: bold;
 }
@@ -237,6 +259,75 @@
     margin-bottom: 100px;
 }
 
+.socialMedia {
+    /* background-color: yellow; */
+    padding-top: 300px;
+}
+
+.socialMedia .SM img {
+    /* background-color: red; */
+    height: 40px;
+}
+
+.instagram {
+    /* background-color: darkblue; */
+    height: auto;
+    width: 90px;
+    float: right;
+}
+
+.linkedin {
+    height: auto;
+    width: 90px;
+    float: right;
+}
+
+.facebook {
+    height: auto;
+    width: 90px;
+    float: right;
+}
+
+.twitter {
+    height: auto;
+    width: 90px;
+    float: right;
+}
+
+.github {
+    height: auto;
+    width: 90px;
+    float: right;
+}
+
+.whatsapp {
+    /* background-color: saddlebrown; */
+    height: auto;
+    width: 90px;
+    float: right;
+}
+
+.telegram {
+    /* background-color: rebeccapurple; */
+    height: auto;
+    width: 90px;
+    float: right;
+}
+
+.snapchat {
+    /* background-color: yellow; */
+    height: auto;
+    width: 90px;
+    float: right;
+}
+
+.youtube {
+    /* background-color: yellow; */
+    height: auto;
+    width: 90px;
+    float: right;
+}
+
 @media (max-width:500px) {
     .container {
         max-width: 1200px;
@@ -270,57 +361,66 @@
         height: 200px;
         margin-top: 20px;
     }
-    .socialmedia {
-        height: 700px;
-        color: white;
-        width: 100%;
-        /* background-color: rebeccapurple; */
-        font-family: 'Chivo Mono', monospace;
-    }
-    .socialdiv01 {
+    .socialMedia {
         /* background-color: yellow; */
-        height: 48%;
-        width: 100%;
-        /* float: left; */
+        padding-top: 750px;
+        height: 900px;
     }
-    .socialdiv02 {
-        /* background-color: rgb(28, 28, 21); */
-        height: 48%;
-        width: 100%;
-        /* float: right; */
-    }
-    .socialmedia .lix {
-        list-style: none;
-        margin-top: 20px;
-        padding: 10px;
-        background-color: rgb(0, 0, 0);
-        width: 100%;
-    }
-    .education {
+    .socialMedia .SM img {
         /* background-color: red; */
-        height: 690px;
-        width: 100%;
-        font-family: 'Chivo Mono', monospace;
+        height: 40px;
     }
-    .bca {
-        width: 100%;
-        height: 33.33%;
-        /* background-color: yellow; */
+    .instagram {
+        /* background-color: darkblue; */
+        height: auto;
+        width: 50px;
         float: left;
-        padding: 20px;
     }
-    .hsc {
-        width: 100%;
-        height: 33.33%;
-        /* background-color: blue; */
-        float: right;
-        padding: 20px;
+    .linkedin {
+        height: auto;
+        width: 50px;
+        float: left;
+        margin-left: 20px;
     }
-    .ssc {
-        width: 100%;
-        height: 33.33%;
-        /* background-color: aquamarine; */
-        float: right;
-        padding: 20px;
+    .facebook {
+        height: auto;
+        width: 50px;
+        float: left;
+    }
+    .twitter {
+        height: auto;
+        width: 50px;
+        float: left;
+    }
+    .github {
+        height: auto;
+        width: 50px;
+        float: left;
+    }
+    .whatsapp {
+        /* background-color: saddlebrown; */
+        display: none;
+        height: auto;
+        width: 50px;
+        float: left;
+    }
+    .telegram {
+        /* background-color: rebeccapurple; */
+        display: none;
+        height: auto;
+        width: 50px;
+        float: left;
+    }
+    .snapchat {
+        /* background-color: yellow; */
+        height: auto;
+        width: 50px;
+        float: left;
+    }
+    .youtube {
+        /* background-color: yellow; */
+        height: auto;
+        width: 50px;
+        float: left;
     }
 }
